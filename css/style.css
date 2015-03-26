@@ -1,6 +1,14 @@
+/* Avoid things from overflowing out of their boxes */
+img, embed, object, video {
+    max-width: 100%
+}
+
+/* Let's us see where our boxex are */
 * {
     outline: 1px solid green !important;
 }
+
+/* MISC */
 
 body {
     color: maroon;

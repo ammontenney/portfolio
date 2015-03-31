@@ -3,13 +3,48 @@ img, embed, object, video {
     max-width: 100%
 }
 
-/* Let's us see where our boxex are */
-* {
-    outline: 1px solid green !important;
-}
 
-/* MISC */
+
+/* Let's us see where our boxes are
+* {
+    outline: 1px solid red !important;
+} */
+
+/* == Font Usage ==
+font-family: 'Open Sans', sans-serif;
+font-family: 'Rock Salt', cursive;
+font-family: 'Quicksand', sans-serif;
+*/
+
 
 body {
-    color: maroon;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(208, 255, 228);
+}
+
+h1, h2 {
+    font-family: 'Rock Salt', cursive;
+    margin: 20px;
+    line-height: 150%;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.banner {
+    padding: 15px;
+}
+
+.rounded img {
+    border-radius: 5px;
+    box-shadow: 15px 15px 20px 0px rgba(0,0,0,0.2);
+}
+
+.portfolio-item img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 20px;
 }
